@@ -4,7 +4,7 @@
 The undertaking involves the two microservices that operate as a server and client respectively. These microservices are launched through Docker Compose, a tool that facilitates the deployment of multiple services. When a request is submitted to the server, it computes the square root of an integer n and returns the result. Subsequently, the client makes a GET request to retrieve the outcome from the server, which is then displayed to the user.
 
 
-## Deployment
+## MicroServices Deployment
 
 To deploy the microservices via Docker Compose, you need to follow these simple steps:
 
@@ -18,7 +18,7 @@ Important: Ensure that no other processes are currently operating on port 5000 a
 
 And there you go! You have effectively deployed the microservices utilizing Docker Compose.
 
-## Folder Structure
+## Folder's Structure
 
 The project folder structure should be organized as follows:
 
